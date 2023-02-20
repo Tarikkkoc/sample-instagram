@@ -25,9 +25,11 @@ const ProfileFooter = () => {
         <li className="cursor-pointer">
           <img src={Add} alt="" />
         </li>
-        <li className="cursor-pointer">
-          <img src={Heartplus} alt="" />
-        </li>
+        <Link to="/likes">
+          <li className="cursor-pointer">
+            <img src={Heartplus} alt="" />
+          </li>
+        </Link>
         <Link to="/profile">
           <li className="cursor-pointer">
             <img src={ProfileX} alt="" />

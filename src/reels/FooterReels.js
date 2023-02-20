@@ -25,9 +25,11 @@ const footer = () => {
         <li className="cursor-pointer">
           <img src={Add} alt="" />
         </li>
-        <li className="cursor-pointer">
-          <img src={HeartPlus} alt="" />
-        </li>
+        <Link to="/likes">
+          <li className="cursor-pointer">
+            <img src={HeartPlus} alt="" />
+          </li>
+        </Link>
         <Link to="/profile">
           <li className="cursor-pointer">
             <img src={Profile} alt="" />

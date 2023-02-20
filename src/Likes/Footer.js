@@ -6,7 +6,6 @@ import Add from "../img/add.svg";
 import Heartplus from "../img/Heartplus.svg";
 import Profile from "../img/Profile.svg";
 import HomeIndicator from "../img/HomeIndicator.svg";
-import "../App.css";
 
 const Footer = () => {
   return (

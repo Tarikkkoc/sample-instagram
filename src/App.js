@@ -5,6 +5,7 @@ import HomePage from "./homepage/HomePage";
 import Reels from "./reels/Reels";
 import Profile from "./profile/Profile";
 import NotFound from "./NotFound";
+import LikesArea from "./Likes/LikesArea";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
           </Route>
           <Route path="/profile">
             <Profile />
+          </Route>
+          <Route path="/likes">
+            <LikesArea />
           </Route>
           <Route path="*">
             <NotFound />
