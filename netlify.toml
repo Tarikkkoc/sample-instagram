@@ -1,11 +1,11 @@
 [[redirects]]
   from = "/profile"
-  to = "/index.html"
+  to = "/profile"
   status = 301
   force = true
 
 [[redirects]]
   from = "/search"
-  to = "/index.html"
+  to = "/search"
   status = 301
   force = true
