@@ -13,7 +13,7 @@ const Footer = () => {
     <div className="reelsFooter w-full h-24 bg-white max-w-3xl mx-auto px-auto fixed bottom-0">
       <ul className="flex items-end justify-around h-12 pt-2">
         <li>
-          <Link to="/homepage">
+          <Link to="/">
             <img className="cursor-pointer" src={Home} alt="" />
           </Link>
         </li>

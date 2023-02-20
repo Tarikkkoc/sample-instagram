@@ -7,7 +7,7 @@ import ReelsArea from "./ReelsArea";
 const Reels = () => {
   return (
     <Fragment>
-      <div className="container  h-screen max-w-3xl mx-auto px-5 ">
+      <div className="container  h-full max-w-3xl mx-auto px-5 ">
         <SearchBar />
         <BordersArea />
         <ReelsArea />
