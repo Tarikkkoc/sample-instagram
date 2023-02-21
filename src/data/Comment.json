@@ -1,0 +1,17 @@
+[
+    {
+        "postId": 1,
+        "userId": 1,
+        "comment": "Awesome",
+        "likes": [1,2,4,5],
+        "createDate": "546945"
+    },
+    {
+        "postId": 1,
+        "userId": 2,
+        "comment": "Crazy",
+        "likes": [1,5],
+        "createDate": "5246945"
+    }
+    
+]

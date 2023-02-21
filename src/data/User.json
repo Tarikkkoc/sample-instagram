@@ -1,0 +1,42 @@
+[	
+    {
+    "id": 1,
+    "username": "ahmet_tarik",
+    "fullname": "Tarık Koç",
+    "title": "Frontend Developer",
+    "tag": ["#Developer", "#web", "#software", "#reactDev", "#javascriptDev", "#industrialEngineer"],
+	
+    "link": ["github", "linkedin", "mail"],
+	"avatar": "https://avatars.githubusercontent.com/u/91598714?v=4",
+    "profileStory": [
+		{"path": "https://cdn-icons-png.flaticon.com/256/4968/4968376.png", "title": "Travel"},
+		{"path": "https://i.pinimg.com/236x/f1/f7/83/f1f783aafe33ea6b7ec959f54f7294a3.jpg", "title": "Cool"},
+		{"path": "https://www.etsy.com/img/19933435/r/il/6ceb44/1886680094/il_fullxfull.1886680094_l3t0.jpg", "title": "Home"},
+		{"path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYZkmXDkikbGv9BRF51GrC8NvFM5mik53gnA&usqp=CAU", "title": "Holidays"}
+    ]
+	},
+	{
+    "id": 2,
+	"username": "nilaldrng",
+	"fullname": "Nilal Drongo",
+	"title": "Graphic Designer",
+	"tag": "#graphDesgnr #webDesgnr #Design",
+	"link": ["github", "linkedin", "mail"],
+	"avatar": "https://avatars.githubusercontent.com/u/91598714?v=4",
+	"profileStory": [
+		{
+			"storyAvatar1": "travel.svg",
+			"storyAvatar2": "cool.svg",
+			"storyAvatar3": "scot.svg",
+			"storyAvatar4": "holidays.svg"
+		},
+		{
+			"storyName1": "Travel",
+			"storyName2": "Cool",
+			"storyName3": "Home",
+			"storyName4": "Holidays"
+		}
+		]
+	}
+]
+

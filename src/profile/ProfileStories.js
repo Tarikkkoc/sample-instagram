@@ -1,14 +1,11 @@
 import React from "react";
+import data from "../data/User.json";
 import "../App.css";
-import Travels from "./img/travel.svg";
-import Cool from "./img/cool.svg";
-import Scot from "./img/scot.svg";
-import Holidays from "./img/holidays.svg";
 
 const ProfileStories = () => {
   return (
     <div className="bg-white">
-      <div className="flex justify-around items-start w-full h-24">
+      <div className="flex grow-1 justify-around items-start w-full h-24">
         <div className="border-4 border-solid w-16 h-16 rounded-3xl cursor-pointer">
           <span className="relative flex items-center justify-center text-4xl">
             <strong>+</strong>
@@ -17,37 +14,45 @@ const ProfileStories = () => {
             My Story
           </span>
         </div>
-        <div className="box-border border-0 h-16 rounded-3xl text-center border-2 story">
+        <div className="box-border shrink-0 border-0 grid place-items-center h-16 rounded-3xl text-center border-2 story">
           <img
-            className="w-full h-full rounded-2xl cursor-pointer"
-            src={Travels}
+            className=" h-16 flex shrink-1 h-fl rounded-2xl cursor-pointer"
+            src={data[0].profileStory[0].path}
             alt=""
           />
-          <span className="font-bold font-sans text-sm">Travels</span>
+          <span className="font-bold font-sans text-sm text-center">
+            {data[0].profileStory[0].title}
+          </span>
         </div>
-        <div className="box-border border-0 w-2/12 h-16 rounded-3xl text-center story">
+        <div className="box-border grid place-items-center border-0 w-2/12 h-16 rounded-3xl text-center story">
           <img
-            className="filistin w-full h-full rounded-2xl cursor-pointer"
-            src={Cool}
+            className="filistin  h-16 rounded-2xl cursor-pointer"
+            src={data[0].profileStory[1].path}
             alt=""
           />
-          <span className="font-bold font-sans text-sm">Cool</span>
+          <span className="font-bold font-sans text-sm">
+            {data[0].profileStory[1].title}
+          </span>
         </div>
-        <div className="box-border w-2/12 h-16 rounded-3xl text-center story">
+        <div className="box-border grid place-items-center h-16 rounded-3xl text-center story">
           <img
-            className="w-full h-full rounded-2xl gladio cursor-pointer"
-            src={Scot}
+            className=" h-16 rounded-2xl gladio cursor-pointer"
+            src={data[0].profileStory[2].path}
             alt=""
           />
-          <span className="font-bold font-sans text-sm">Scot</span>
+          <span className="font-bold font-sans text-sm">
+            {data[0].profileStory[2].title}
+          </span>
         </div>
-        <div className="box-border w-2/12 h-16 rounded-3xl text-center story">
+        <div className="box-border grid place-items-center w-2/12 h-16 rounded-3xl text-center story">
           <img
-            className="w-full h-full rounded-2xl cursor-pointer "
-            src={Holidays}
+            className="w-16 h-16 rounded-2xl cursor-pointer "
+            src={data[0].profileStory[3].path}
             alt=""
           />
-          <span className="font-bold font-sans text-sm">Holidays</span>
+          <span className="font-bold font-sans text-sm">
+            {data[0].profileStory[3].title}
+          </span>
         </div>
       </div>
       <div className="h-2"></div>

@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import data from "../data/User.json";
 import "../App.css";
 import Settings from "../homepage/img/Setting.svg";
 import Info from "../profile/img/profile_info.svg";
@@ -12,7 +13,7 @@ const ProfileBar = () => {
 
       <div className="w-2/4 flex justify-center items-center">
         <span className="spangram font-sans">
-          <strong>ahmet_tarik</strong>
+          <strong>{data[0].username}</strong>
         </span>
         <img className="ml-2 w-3 h-1.5 cursor-pointer" src={Info} alt="" />
       </div>

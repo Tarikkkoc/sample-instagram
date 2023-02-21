@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import data from "../data/User.json";
 import "../App.css";
 import PP from "./img/pp.jpeg";
 import PPPlus from "./img/plus.svg";
@@ -33,7 +34,7 @@ const ProfileInfo = () => {
       <div className="flex w-full h-auto">
         <div className="w-5/12 flex justify-end">
           <span className="font-sans font-bold not-italic text-base">
-            Tarık Koç
+            {data[0].fullname}
           </span>
         </div>
         <div className="w-1/6 justify-center flex">
@@ -41,15 +42,15 @@ const ProfileInfo = () => {
         </div>
         <div className="w-5/12">
           <span className="font-sans font-bold not-italic text-base">
-            Frontend Developer
+            {data[0].title}
           </span>
         </div>
       </div>
       <div className="w-full flex justify-center items-center">
         <div className="w-80 text-center">
           <span className="font-sans font-bold not-italic text-xs text-slate-600">
-            Developer #web #software #reactDeveloper #javacriptdeveloper |
-            #industrialengineer | #frontenddeveloper
+            {data[0].tag[0]} {data[0].tag[1]} {data[0].tag[2]} {data[0].tag[3]}{" "}
+            {data[0].tag[4]} {data[0].tag[5]}
           </span>
         </div>
       </div>
@@ -59,7 +60,7 @@ const ProfileInfo = () => {
             href="https://github.com/Tarikkkoc"
             className="font-sans font-bold not-italic text-xs text-neutral-800"
           >
-            github
+            {data[0].link[0]}
           </a>
           <span className="font-sans font-bold not-italic text-xs text-slate-600">
             /
@@ -68,7 +69,7 @@ const ProfileInfo = () => {
             href="https://www.linkedin.com/in/ahmet-tarık-koç-3b952a193/"
             className="font-sans font-bold not-italic text-xs text-neutral-800"
           >
-            Linkedin
+            {data[0].link[1]}
           </a>
           <span className="font-sans font-bold not-italic text-xs text-slate-600">
             /
@@ -77,7 +78,7 @@ const ProfileInfo = () => {
             href="mailto:ahmettarikkoc@gmail.com"
             className="font-sans font-bold not-italic text-xs text-neutral-800"
           >
-            mail
+            {data[0].link[2]}
           </a>
         </div>
       </div>

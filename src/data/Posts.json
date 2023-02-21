@@ -1,0 +1,53 @@
+[
+    {
+        "userId":1,
+        "postId": 1,
+        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652630320447679/atk7_a_car_getting_refueled_illustration_d6379329-67dc-43a7-b7f3-a0968e0502fe.png",
+        "username": "ahmet_tarik",
+        "avatar": "https://avatars.githubusercontent.com/u/91598714?v=4",
+        "location": "New York",
+        "likes": [2,3,5,8,6],
+        "createDate": "01254966"
+    },
+    {
+        "userId":2,
+        "postId": 2,
+        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652625912238191/a_short_man_in_a_steampunk_suit._Holding_a_musket_i_eb4a4732-c281-41ec-aa98-96446ab19523.png",
+        "username": "nilaldrng",
+        "avatar": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/03/silhouette-man-woman-couple-at-lake-1296x728-header.png?w=1155&h=1528",
+        "location": "London",
+        "likes": [2,3,5,6,20,2],
+        "createDate": "112412341"
+    },
+    
+    {
+        "userId":3,
+        "postId": 3,
+        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652259489464453/jpalacios_chernobyl_fear_nclear_reactor_moster_8k_realistic_for_6576f6c5-9878-44da-8900-e39ba2983d15.png",
+        "username": "sample",
+        "avatar": "https://image.shutterstock.com/image-photo/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-250nw-1194497251.jpg",
+        "location": "Rome, Italy",
+        "likes": [2,3,5,6],
+        "createDate": "21231321"
+    },
+    {
+        "userId":4,
+        "postId": 4,
+        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652257648165004/ksavras_cartoon_sci-fi_artportrait_of_a_futuristic_cyberpunk_ha_bb2f065e-0ff2-4400-a725-644b57b54c97.png",
+        "username": "sample2",
+        "avatar": "https://www.askinclinic.co.uk/wp-content/uploads/2020/02/Beautiful-Woman-11-scaled.jpg",
+        "location": "Venice",
+        "likes": [2,3,5,6],
+        "createDate": "01254966"
+    },
+    {
+        "userId":5,
+        "postId": 5,
+        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652235128930365/Giusp_Step_into_the_world_of_hip_hop_with_our_new_contest_Our_l_d4eb9646-9f90-4d5c-a663-bbb4c17d64ae.png",
+        "username": "sample3",
+        "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyqYqzYwUY2fSesTxFf-lo7fOt6Spi8VFiRTr49TqxDQUm4jiIokK4WMZVEUUPXhJ81k&usqp=CAU",
+        "location": "Istanbul",
+        "likes": [2,3,5,6],
+        "createDate": "012542966"
+    }
+]
