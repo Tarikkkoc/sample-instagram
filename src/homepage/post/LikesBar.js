@@ -1,9 +1,8 @@
 import React from "react";
-import "../App.css";
-import Like from "./img/like.svg";
-import Comment from "./img/Comment.svg";
-import Share from "./img/share.svg";
-import Save from "./img/save.svg";
+import Like from "../img/like.svg";
+import Comment from "../img/Comment.svg";
+import Share from "../img/share.svg";
+import Save from "../img/save.svg";
 
 const LikesBar = (props) => {
   return (

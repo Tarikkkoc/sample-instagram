@@ -1,6 +1,6 @@
 [	
     {
-    "id": 1,
+    "userId": 1,
     "username": "ahmet_tarik",
     "fullname": "Tarık Koç",
     "title": "Frontend Developer",
@@ -16,7 +16,7 @@
     ]
 	},
 	{
-    "id": 2,
+    "userId": 2,
 	"username": "nilaldrng",
 	"fullname": "Nilal Drongo",
 	"title": "Graphic Designer",

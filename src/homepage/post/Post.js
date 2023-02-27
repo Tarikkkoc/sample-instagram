@@ -1,24 +1,29 @@
-import React from "react";
-import Group8 from "./img/Group 8.svg";
+import React, { useState } from "react";
+import Group8 from "../img/Group 8.svg";
 import LikesBar from "./LikesBar";
+import Comment from "./Comment";
 import LikedBar from "./LikedBar";
+import { getCommentByPostId } from "../../libs/getCommentByPostId";
 
-const Post = (props) => {
+const Post = ({ post }) => {
+  const comments = getCommentByPostId(post.postId);
+  const [showComment, setShowComment] = useState(false);
+
   return (
     <div className="bg-white w-full h-auto rounded-3xl p-4 flex flex-col gap-3">
       <div className="w-full flex flex-row">
         <div className="w-12 flex-none">
           <img
             className="rounded-full h-12 w-12 cursor-pointer"
-            src={props.avatar}
+            src={post.avatar}
             alt=""
           />
         </div>
         <div className="grow pl-3">
           <div className="cursor-pointer">
-            <strong>{props.username}</strong>
+            <strong>{post.username}</strong>
           </div>
-          <div>{props.location}</div>
+          <div>{post.location}</div>
         </div>
         <div className="w-8 flex-none cursor-pointer">
           <img className="pt-3" src={Group8} alt="" />
@@ -27,12 +32,15 @@ const Post = (props) => {
       <div className="w-full h-auto">
         <img
           className="w-full h-auto rounded-2xl outline-none"
-          src={props.post}
+          src={post.post[0]}
           alt=""
         />
       </div>
-      <LikesBar likeCount={props.likeCount} commentCount={props.commentCount} />
-      <LikedBar />
+      <LikesBar likeCount={post.likes.length} commentCount={comments.length} />
+      <LikedBar onClick={() => setShowComment(true)} />
+      {showComment && <Comment comments={comments} />}
+      {/* <LikedBar />
+      <Comment comments={comments} /> */}
     </div>
   );
 };

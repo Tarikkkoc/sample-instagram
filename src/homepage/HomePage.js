@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Footer from "./Footer";
-import PostArea from "./PostArea";
+import PostArea from "./post/PostArea";
 import Settings from "./Settings";
 import Stories from "./Stories";
 

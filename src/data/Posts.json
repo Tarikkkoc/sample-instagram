@@ -2,20 +2,55 @@
     {
         "userId":1,
         "postId": 1,
-        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652630320447679/atk7_a_car_getting_refueled_illustration_d6379329-67dc-43a7-b7f3-a0968e0502fe.png",
+        "post": ["https://cdn.discordapp.com/attachments/1008571069797507102/1077652630320447679/atk7_a_car_getting_refueled_illustration_d6379329-67dc-43a7-b7f3-a0968e0502fe.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898746362351676/APontherocks_A_race_against_time_to_decipher_the_clue_before_th_af04dee1-9759-4885-bb68-e94b2b358154.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898744525234207/sofoa_stars_wars_fight_in_the_night_with_troopers_ea24e965-11cf-4e01-bf70-ba79caa3e0c7.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898742038011944/SI_Fahim_motivational_image_0b2e0a69-d6f4-448f-8dec-2e4d8961d22d.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898669220692040/Ricki111_very_cute_dark_brown_tabby_cat_holding_wearing_Kung_Fo_d207d16b-a1c0-4368-9416-199c9b367f95.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898635938906132/Minh.N.Huynh_helmet_design_influence_by_evangelion_white_color__7ae2f703-b315-4a5a-be4d-9095e5e16143.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898552799408148/A_logo_that_depicts_the_silhouette_of_a_grapevine_in__c941770b-3598-49ec-b856-4e7fed69f144.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077652625912238191/a_short_man_in_a_steampunk_suit._Holding_a_musket_i_eb4a4732-c281-41ec-aa98-96446ab19523.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898451033006170/Mae976_young_firefly_smile_cartoon_background_luminous_forest_f_68733394-8278-444f-bcb3-2bb2d25dc424.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898448394801183/Coral_the_little_cute_astronaut_drifting_in_the_space_near_to_t_e83108fc-1fac-4e09-95f7-adafbee1bbdd.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898401557004370/Charlemagne_R0B0_PVNKS__black_and_white_stick_figure_style_draw_b1e8463a-f8c1-448e-81f5-d0260c43078c.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898270921207808/Minh.N.Huynh_helmet_design_influence_by_evangelion_white_color__9c38939e-1191-4509-96c8-ed3e6147ad11.png",
+        "https://cdn.discordapp.com/attachments/1008571069797507102/1077898214671388682/ammmar_Teeth_in_a_warriors_uniform_High_quality_3D_8k_cf6a6d22-d875-4e88-94da-7e6a33ce4f04.png"
+        ],
         "username": "ahmet_tarik",
         "avatar": "https://avatars.githubusercontent.com/u/91598714?v=4",
         "location": "New York",
+        "comments" : [
+            {
+                "userId": 1,
+                "comment": "Awesome",
+                "likes": [1,2,4,5],
+                "createDate": "546945"
+            },
+            {
+                "userId": 2,
+                "comment": "Crazy",
+                "likes": [1,5],
+                "createDate": "5246945"
+            }
+        ],
         "likes": [2,3,5,8,6],
         "createDate": "01254966"
     },
     {
         "userId":2,
         "postId": 2,
-        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652625912238191/a_short_man_in_a_steampunk_suit._Holding_a_musket_i_eb4a4732-c281-41ec-aa98-96446ab19523.png",
+        "post": ["https://cdn.discordapp.com/attachments/1008571069797507102/1077652625912238191/a_short_man_in_a_steampunk_suit._Holding_a_musket_i_eb4a4732-c281-41ec-aa98-96446ab19523.png"],
         "username": "nilaldrng",
         "avatar": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/03/silhouette-man-woman-couple-at-lake-1296x728-header.png?w=1155&h=1528",
         "location": "London",
+        "comments" : [
+                {
+                    "userId": 5,
+                    "comment": "Nice pic",
+                    "likes": [1,2,4,5],
+                    "createDate": "546945"
+                }
+        ],
         "likes": [2,3,5,6,20,2],
         "createDate": "112412341"
     },
@@ -23,31 +58,55 @@
     {
         "userId":3,
         "postId": 3,
-        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652259489464453/jpalacios_chernobyl_fear_nclear_reactor_moster_8k_realistic_for_6576f6c5-9878-44da-8900-e39ba2983d15.png",
+        "post": ["https://cdn.discordapp.com/attachments/1008571069797507102/1077652259489464453/jpalacios_chernobyl_fear_nclear_reactor_moster_8k_realistic_for_6576f6c5-9878-44da-8900-e39ba2983d15.png"],
         "username": "sample",
         "avatar": "https://image.shutterstock.com/image-photo/stock-photo-portrait-of-smiling-red-haired-millennial-man-looking-at-camera-sitting-in-caf-or-coffeeshop-250nw-1194497251.jpg",
         "location": "Rome, Italy",
+        "comments" : [
+            {
+                "userId": 4,
+                "comment": "Great",
+                "likes": [1,2,4,5],
+                "createDate": "546945"
+            }
+        ],
         "likes": [2,3,5,6],
         "createDate": "21231321"
     },
     {
         "userId":4,
         "postId": 4,
-        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652257648165004/ksavras_cartoon_sci-fi_artportrait_of_a_futuristic_cyberpunk_ha_bb2f065e-0ff2-4400-a725-644b57b54c97.png",
+        "post": ["https://cdn.discordapp.com/attachments/1008571069797507102/1077652257648165004/ksavras_cartoon_sci-fi_artportrait_of_a_futuristic_cyberpunk_ha_bb2f065e-0ff2-4400-a725-644b57b54c97.png"],
         "username": "sample2",
         "avatar": "https://www.askinclinic.co.uk/wp-content/uploads/2020/02/Beautiful-Woman-11-scaled.jpg",
         "location": "Venice",
+        "comments" : [
+            {
+                "userId": 3,
+                "comment": "GOAT",
+                "likes": [1,2,4,5],
+                "createDate": "546945"
+            }
+        ],
         "likes": [2,3,5,6],
         "createDate": "01254966"
     },
     {
         "userId":5,
         "postId": 5,
-        "post": "https://cdn.discordapp.com/attachments/1008571069797507102/1077652235128930365/Giusp_Step_into_the_world_of_hip_hop_with_our_new_contest_Our_l_d4eb9646-9f90-4d5c-a663-bbb4c17d64ae.png",
+        "post": ["https://cdn.discordapp.com/attachments/1008571069797507102/1077652235128930365/Giusp_Step_into_the_world_of_hip_hop_with_our_new_contest_Our_l_d4eb9646-9f90-4d5c-a663-bbb4c17d64ae.png"],
         "username": "sample3",
         "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyyqYqzYwUY2fSesTxFf-lo7fOt6Spi8VFiRTr49TqxDQUm4jiIokK4WMZVEUUPXhJ81k&usqp=CAU",
         "location": "Istanbul",
+        "comments" : [
+            {
+                "userId": 2,
+                "comment": "Amazing",
+                "likes": [1,5],
+                "createDate": "5246945"
+            }
+        ],
         "likes": [2,3,5,6],
         "createDate": "012542966"
-    }
+    }  
 ]
