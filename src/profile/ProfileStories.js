@@ -2,7 +2,7 @@ import React from "react";
 import data from "../data/User.json";
 import "../App.css";
 
-const ProfileStories = () => {
+const ProfileStories = (props) => {
   return (
     <div className="bg-white">
       <div className="flex grow-1 justify-around items-start w-full h-24">
@@ -17,41 +17,41 @@ const ProfileStories = () => {
         <div className="box-border shrink-0 border-0 grid place-items-center h-16 rounded-3xl text-center border-2 story">
           <img
             className=" h-16 flex shrink-1 h-fl rounded-2xl cursor-pointer"
-            src={data[0].profileStory[0].path}
+            src={props.pathOne}
             alt=""
           />
           <span className="font-bold font-sans text-sm text-center">
-            {data[0].profileStory[0].title}
+            {props.pathTitleOne}
           </span>
         </div>
         <div className="box-border grid place-items-center border-0 w-2/12 h-16 rounded-3xl text-center story">
           <img
             className="filistin  h-16 rounded-2xl cursor-pointer"
-            src={data[0].profileStory[1].path}
+            src={props.pathTwo}
             alt=""
           />
           <span className="font-bold font-sans text-sm">
-            {data[0].profileStory[1].title}
+            {props.pathTitleTwo}
           </span>
         </div>
         <div className="box-border grid place-items-center h-16 rounded-3xl text-center story">
           <img
             className=" h-16 rounded-2xl gladio cursor-pointer"
-            src={data[0].profileStory[2].path}
+            src={props.pathThree}
             alt=""
           />
           <span className="font-bold font-sans text-sm">
-            {data[0].profileStory[2].title}
+            {props.pathTitleThree}
           </span>
         </div>
         <div className="box-border grid place-items-center w-2/12 h-16 rounded-3xl text-center story">
           <img
             className="w-16 h-16 rounded-2xl cursor-pointer "
-            src={data[0].profileStory[3].path}
+            src={props.pathFour}
             alt=""
           />
           <span className="font-bold font-sans text-sm">
-            {data[0].profileStory[3].title}
+            {props.pathTitleFour}
           </span>
         </div>
       </div>

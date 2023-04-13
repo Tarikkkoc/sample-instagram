@@ -2,8 +2,36 @@ import React from "react";
 import Likes1 from "../img/likes1.svg";
 import Likes2 from "../img/likes2.svg";
 import Likes3 from "../img/likes3.svg";
+import UserData from "../../data/User.json";
+import LikesData from "../../data/Posts.json";
 
 const LikedBar = (props) => {
+  const users = require("../../data/User.json");
+  const posts = require("../../data/Posts.json");
+
+  const userLikesByPostId = [];
+
+  posts.forEach((post) => {
+    const likes = post.likes || [];
+    const usersLiked = [];
+
+    likes.forEach((like) => {
+      const user = users.find((user) => user.userId === like);
+      if (user) {
+        usersLiked.push({
+          avatar: user.avatar,
+          username: user.username,
+        });
+      }
+    });
+
+    userLikesByPostId.push({
+      postId: post.postId,
+      likes: usersLiked,
+    });
+  });
+  console.log(userLikesByPostId);
+
   return (
     <div className="flex">
       <div className="flex grow-0 shrink-0 -space-x-2">

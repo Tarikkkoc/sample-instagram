@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import data from "../data/User.json";
 import "../App.css";
-import PP from "./img/pp.jpeg";
-import PPPlus from "./img/plus.svg";
 import hr from "./img/hr.svg";
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => {
   return (
     <div>
       <div className="w-full h-24 flex">
@@ -19,7 +17,7 @@ const ProfileInfo = () => {
           <div className="w-auto h-16 profileInf">
             <img
               className="items-center z-0 border-4 border-solid w-16 h-16 rounded-3xl border-t-lime-500 border-l-amber-500 border-b-teal-800 border-r-blue-700"
-              src={PP}
+              src={props.avatar}
               alt=""
             />
           </div>
@@ -34,7 +32,7 @@ const ProfileInfo = () => {
       <div className="flex w-full h-auto">
         <div className="w-5/12 flex justify-end">
           <span className="font-sans font-bold not-italic text-base">
-            {data[0].fullname}
+            {props.fullname}
           </span>
         </div>
         <div className="w-1/6 justify-center flex">
@@ -42,43 +40,43 @@ const ProfileInfo = () => {
         </div>
         <div className="w-5/12">
           <span className="font-sans font-bold not-italic text-base">
-            {data[0].title}
+            {props.title}
           </span>
         </div>
       </div>
       <div className="w-full flex justify-center items-center">
         <div className="w-80 text-center">
           <span className="font-sans font-bold not-italic text-xs text-slate-600">
-            {data[0].tag[0]} {data[0].tag[1]} {data[0].tag[2]} {data[0].tag[3]}{" "}
-            {data[0].tag[4]} {data[0].tag[5]}
+            {props.tagOne} {props.tagTwo} {props.tagThree} {props.tagFour}{" "}
+            {props.tagFive} {props.tagSix}
           </span>
         </div>
       </div>
       <div className="w-full flex justify-center items-center">
         <div className="w-80 text-center">
           <a
-            href="https://github.com/Tarikkkoc"
+            href={props.linkOne}
             className="font-sans font-bold not-italic text-xs text-neutral-800"
           >
-            {data[0].link[0]}
+            {props.linkTitleOne}
           </a>
           <span className="font-sans font-bold not-italic text-xs text-slate-600">
             /
           </span>
           <a
-            href="https://www.linkedin.com/in/ahmet-tarık-koç-3b952a193/"
+            href={props.linkTwo}
             className="font-sans font-bold not-italic text-xs text-neutral-800"
           >
-            {data[0].link[1]}
+            {props.linkTitleTwo}
           </a>
           <span className="font-sans font-bold not-italic text-xs text-slate-600">
             /
           </span>
           <a
-            href="mailto:ahmettarikkoc@gmail.com"
+            href={props.linkThree}
             className="font-sans font-bold not-italic text-xs text-neutral-800"
           >
-            {data[0].link[2]}
+            {props.linkTitleThree}
           </a>
         </div>
       </div>

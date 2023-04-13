@@ -1,5 +1,4 @@
 import "./App.css";
-import TimeBar from "./TimeBar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./homepage/HomePage";
 import Reels from "./reels/Reels";
@@ -10,7 +9,7 @@ import LikesArea from "./Likes/LikesArea";
 function App() {
   return (
     <>
-      <TimeBar />
+      {/* <TimeBar /> */}
       <BrowserRouter>
         <Switch>
           <Route exact path="/">
@@ -19,7 +18,11 @@ function App() {
           <Route path="/search">
             <Reels />
           </Route>
-          <Route path="/profile">
+
+          {/* <Route path="/profile">
+            <Profile />
+          </Route> */}
+          <Route path="/profile/:username">
             <Profile />
           </Route>
           <Route path="/likes">

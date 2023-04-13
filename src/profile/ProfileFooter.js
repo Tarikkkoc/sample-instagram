@@ -10,8 +10,8 @@ import HomeIndicator from "../img/HomeIndicator.svg";
 
 const ProfileFooter = () => {
   return (
-    <div className="reelsFooter w-full h-24 bg-white max-w-3xl mx-auto px-auto fixed bottom-0">
-      <ul className="flex items-end justify-around h-12 pt-2">
+    <div className="reelsFooter w-full h-20 bg-white max-w-3xl mx-auto px-auto fixed bottom-0">
+      <ul className="flex items-end justify-around h-12">
         <Link to="/">
           <li className="cursor-pointer">
             <img src={Home} alt="" />
@@ -30,15 +30,12 @@ const ProfileFooter = () => {
             <img src={Heartplus} alt="" />
           </li>
         </Link>
-        <Link to="/profile">
+        <Link to="/profile/ahmet_tarik">
           <li className="cursor-pointer">
             <img src={ProfileX} alt="" />
           </li>
         </Link>
       </ul>
-      <div className="flex items-end w-full h-12 justify-center">
-        <img className="h-3 w-36" src={HomeIndicator} alt="" />
-      </div>
     </div>
   );
 };

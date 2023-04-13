@@ -3,6 +3,7 @@ import Group8 from "../img/Group 8.svg";
 import LikesBar from "./LikesBar";
 import Comment from "./Comment";
 import LikedBar from "./LikedBar";
+import { Link } from "react-router-dom";
 import { getCommentByPostId } from "../../libs/getCommentByPostId";
 
 const Post = ({ post }) => {
@@ -13,15 +14,19 @@ const Post = ({ post }) => {
     <div className="bg-white w-full h-auto rounded-3xl p-4 flex flex-col gap-3">
       <div className="w-full flex flex-row">
         <div className="w-12 flex-none">
-          <img
-            className="rounded-full h-12 w-12 cursor-pointer"
-            src={post.avatar}
-            alt=""
-          />
+          <Link to={() => `/profile/${post.username}`}>
+            <img
+              className="rounded-full h-12 w-12 cursor-pointer"
+              src={post.avatar}
+              alt=""
+            />
+          </Link>
         </div>
         <div className="grow pl-3">
           <div className="cursor-pointer">
-            <strong>{post.username}</strong>
+            <Link to={() => `/profile/${post.username}`}>
+              <strong>{post.username}</strong>
+            </Link>
           </div>
           <div>{post.location}</div>
         </div>
@@ -39,8 +44,6 @@ const Post = ({ post }) => {
       <LikesBar likeCount={post.likes.length} commentCount={comments.length} />
       <LikedBar onClick={() => setShowComment(true)} />
       {showComment && <Comment comments={comments} />}
-      {/* <LikedBar />
-      <Comment comments={comments} /> */}
     </div>
   );
 };
