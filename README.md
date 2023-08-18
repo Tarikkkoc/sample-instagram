@@ -25,7 +25,7 @@ localhost:[PORT]
 
 
 <img src="./public/github/img1.jpg"/>
-<h3>Responsive</h3>
+</br>
 <img src="./public/github/img2.jpg"/>
 </br>
 <img src="./public/github/img3.jpg"/>
