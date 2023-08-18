@@ -21,7 +21,7 @@ npm start [OR] yarn start
 </p>
 <div>
 localhost:[PORT]
-</div>
+</div> </br>
 
 
 <img src="./public/github/img1.jpg"/>
