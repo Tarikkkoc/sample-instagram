@@ -7,11 +7,7 @@ import Stories from "./Stories";
 const HomePage = () => {
   return (
     <Fragment>
-      <div
-        className={
-          "container h-full flex flex-col gap-2 max-w-3xl mx-auto px-5"
-        }
-      >
+      <div className="container h-full flex flex-col gap-2 max-w-3xl mx-auto px-5">
         <Settings />
         <Stories />
         <PostArea />

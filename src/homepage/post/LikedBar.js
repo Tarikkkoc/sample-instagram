@@ -30,7 +30,7 @@ const LikedBar = (props) => {
       likes: usersLiked,
     });
   });
-  console.log(userLikesByPostId);
+  // console.log(userLikesByPostId);
 
   return (
     <div className="flex">

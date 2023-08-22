@@ -17,41 +17,41 @@ const ProfileStories = (props) => {
         <div className="box-border shrink-0 border-0 grid place-items-center h-16 rounded-3xl text-center border-2 story">
           <img
             className=" h-16 flex shrink-1 h-fl rounded-2xl cursor-pointer"
-            src={props.pathOne}
+            src={props.currentUserStory.profileStory[0].path}
             alt=""
           />
           <span className="font-bold font-sans text-sm text-center">
-            {props.pathTitleOne}
+            {props.currentUserStory.profileStory[0].title}
           </span>
         </div>
         <div className="box-border grid place-items-center border-0 w-2/12 h-16 rounded-3xl text-center story">
           <img
             className="filistin  h-16 rounded-2xl cursor-pointer"
-            src={props.pathTwo}
+            src={props.currentUserStory.profileStory[1].path}
             alt=""
           />
           <span className="font-bold font-sans text-sm">
-            {props.pathTitleTwo}
+            {props.currentUserStory.profileStory[1].title}
           </span>
         </div>
         <div className="box-border grid place-items-center h-16 rounded-3xl text-center story">
           <img
             className=" h-16 rounded-2xl gladio cursor-pointer"
-            src={props.pathThree}
+            src={props.currentUserStory.profileStory[2].path}
             alt=""
           />
           <span className="font-bold font-sans text-sm">
-            {props.pathTitleThree}
+            {props.currentUserStory.profileStory[2].title}
           </span>
         </div>
         <div className="box-border grid place-items-center w-2/12 h-16 rounded-3xl text-center story">
           <img
             className="w-16 h-16 rounded-2xl cursor-pointer "
-            src={props.pathFour}
+            src={props.currentUserStory.profileStory[3].path}
             alt=""
           />
           <span className="font-bold font-sans text-sm">
-            {props.pathTitleFour}
+            {props.currentUserStory.profileStory[3].title}
           </span>
         </div>
       </div>
